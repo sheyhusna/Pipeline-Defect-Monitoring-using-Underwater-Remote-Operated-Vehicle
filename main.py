@@ -91,10 +91,10 @@ with st.sidebar:
         "🔗 LinkedIn Profile",
         "https://www.linkedin.com/in/shaheera273"
     )
-    # st.link_button(
-    #     "💻 GitHub",
-    #     "https://github.com/YOURUSERNAME"
-    # )
+    st.link_button(
+        "💻 GitHub",
+        "https://github.com/sheyhusna/Pipeline-Defect-Monitoring.git"
+    )
 
 os.makedirs(SAVE_FOLDER, exist_ok=True)
 os.makedirs(REPORT_FOLDER, exist_ok=True)
